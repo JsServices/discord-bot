@@ -35,7 +35,7 @@ bot.on('ready', async () => {
 	}
 });
 
-bot.connect(token, [GatewayIntents.GUILDS, GatewayIntents.GUILD_MESSAGES]);
+bot.connect(token || Deno.env.get('token'), [GatewayIntents.GUILDS, GatewayIntents.GUILD_MESSAGES]);
 
 interface CommandData {
 	name: string;
