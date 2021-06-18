@@ -19,7 +19,7 @@ export const data = {
 					new Embed({
 						author: {
 							name: 'JSServices Bot',
-							icon_url: i.guild?.icon,
+							icon_url: i.client.user?.avatarURL(),
 						},
 						fields: [
 							{
@@ -39,7 +39,7 @@ export const data = {
 				new Embed({
 					author: {
 						name: 'JSServices Bot',
-						icon_url: i.guild?.icon,
+						icon_url: i.client.user?.avatarURL(),
 					},
 					description: 'Sent message!',
 				}).setColor('random'),
@@ -50,7 +50,7 @@ export const data = {
 			new Embed({
 				author: {
 					name: 'JSServices Bot',
-					icon_url: i.guild?.icon,
+					icon_url: i.client.user?.avatarURL(),
 				},
 				fields: [
 					{
