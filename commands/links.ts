@@ -6,7 +6,7 @@ import {
 
 export const data = {
   name: "links",
-  description: "Links to JSServices software",
+  description: "Links to Wave Studios software",
   aliases: ["github", "software", "urls"],
   async execute(i: SlashCommandInteraction) {
     i.respond({
@@ -14,7 +14,7 @@ export const data = {
       embeds: [
         new Embed({
           author: {
-            name: "JSServices Bot",
+            name: "Wave studios Bot",
             icon_url: i.client.user?.avatarURL(),
           },
           fields: [
