@@ -1,2 +1,2 @@
-[Main Github](https://github.com/jsservices)
-[JSBoard](https://github.com/jsservices/jsboard)
+[Main Github](https://github.com/wave-studio)
+[JSBoard](https://github.com/wave-studio/jsboard)
