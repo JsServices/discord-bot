@@ -18,7 +18,7 @@ export const data = {
 				embeds: [
 					new Embed({
 						author: {
-							name: 'JSServices Bot',
+							name: 'Wave studios Bot',
 							icon_url: i.client.user?.avatarURL(),
 						},
 						fields: [
@@ -38,7 +38,7 @@ export const data = {
 			embeds: [
 				new Embed({
 					author: {
-						name: 'JSServices Bot',
+						name: 'Wave Studios Bot',
 						icon_url: i.client.user?.avatarURL(),
 					},
 					description: 'Sent message!',
@@ -49,7 +49,7 @@ export const data = {
 		const rrmsg = await i.channel?.send(
 			new Embed({
 				author: {
-					name: 'JSServices Bot',
+					name: 'Wave Studios Bot',
 					icon_url: i.client.user?.avatarURL(),
 				},
 				fields: [
