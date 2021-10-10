@@ -1,7 +1,7 @@
-# JSServices discord bot
- This is the discord bot used in the JSServices discord server. 
+# Wave Studios Discord Bot
+ This is the discord bot used in the Wave Studios discord server. 
 
-## Depends:
+## Dependencies:
  - Deno
  - Harmony
  - Discord bot account
