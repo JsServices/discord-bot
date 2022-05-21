@@ -1,2 +1,0 @@
-language = "deno"
-run = "deno run --allow-net --allow-read --allow-env --no-check index.ts"
